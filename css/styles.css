@@ -1,10 +1,11 @@
 body {
-  color: #2e2f42;
+  color: #434455;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
+  background-color: #ffffff;
 }
 
 .button {
@@ -21,10 +22,19 @@ body {
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
 .header-logo:focus,
 .header-logo:hover {
   color: #404bbf;
+}
+.logo-web {
+  color: #4d5ae5;
 }
 
 .nav-link {
