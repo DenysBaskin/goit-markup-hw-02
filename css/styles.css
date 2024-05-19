@@ -12,6 +12,9 @@ body {
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .button:hover,
 .button:focus {
@@ -19,22 +22,21 @@ body {
 }
 
 .header-logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
 }
 .header-logo:focus,
 .header-logo:hover {
   color: #404bbf;
 }
-.logo-web {
-  color: #4d5ae5;
+.logo-studio {
+  color: #2e2f42;
 }
 
 .nav-link {
@@ -55,22 +57,37 @@ body {
   text-decoration: underline;
 }
 .address {
-  color: #434455;
   text-decoration: none;
+  color: #434455;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-style: normal;
 }
-.address:hover,
-.adress:focus {
+
+.address .mailto,
+.address .tel {
+  color: #2e2f42;
+}
+
+.address .mailto:hover,
+.address .mailto:focus,
+.address .tel:hover,
+.address .tel:focus {
   color: #404bbf;
 }
 ul {
   list-style-type: none;
 }
+.main {
+  background: #2e2f42;
+}
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #fff;
 }
 h2 {
   font-weight: 700;
