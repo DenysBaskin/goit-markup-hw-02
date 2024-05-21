@@ -27,7 +27,7 @@ body {
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -64,15 +64,12 @@ body {
   font-style: normal;
 }
 
-.address .mailto,
-.address .tel {
-  color: #2e2f42;
+.address-data {
+  color: #434455;
 }
 
-.address .mailto:hover,
-.address .mailto:focus,
-.address .tel:hover,
-.address .tel:focus {
+.address-data:hover,
+.address-data:focus {
   color: #404bbf;
 }
 ul {
@@ -108,13 +105,22 @@ p {
   color: #434455;
 }
 /*section2*/
-.advantages {
+.advantages-title {
   font-weight: 500;
   color: #2e2f42;
+  font-weight: 500;
+}
+.advantages-list-item {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 /*section3*/
 .team {
   background-color: #f4f4fd;
+}
+.team-img {
+  background-color: #ffffff;
 }
 .team-title {
   line-height: 1.11;
@@ -123,12 +129,10 @@ p {
 }
 .team-list {
   background-color: #ffffff;
-}
-
-.team-list {
   font-weight: 500;
   color: #2e2f42;
 }
+
 .team-list-item {
   font-size: 16px;
 }
