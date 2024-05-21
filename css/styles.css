@@ -80,12 +80,12 @@ ul {
   background-color: #2e2f42;
 }
 .main-title {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #fff;
+  color: #2e2f42;
 }
 h2 {
   font-weight: 700;
@@ -109,6 +109,9 @@ p {
   font-weight: 500;
   color: #2e2f42;
   font-weight: 500;
+}
+.advantages-list {
+  background-color: #ffffff;
 }
 .advantages-list-item {
   line-height: 1.5;
@@ -144,6 +147,7 @@ p {
 }
 .portfolio-list {
   font-weight: 500;
+  color: #2e2f42;
 }
 .portfolio-list-item {
   font-size: 16px;
