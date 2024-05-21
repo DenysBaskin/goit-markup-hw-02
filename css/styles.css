@@ -132,3 +132,38 @@ p {
 .team-list-item {
   font-size: 16px;
 }
+/*section4*/
+.portfolio {
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.portfolio-list {
+  font-weight: 500;
+}
+.portfolio-list-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/*footer*/
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.footer-logo-studio {
+  color: #f4f4fd;
+}
+.footer-paragraph {
+  line-height: 1.5;
+  color: #f4f4fd;
+}
