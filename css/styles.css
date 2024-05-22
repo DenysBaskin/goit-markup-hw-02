@@ -106,14 +106,14 @@ p {
 }
 /*section2*/
 .advantages-title {
+  font-size: 0;
+}
+.advantages-list {
+  background-color: #ffffff;
   font-weight: 500;
   color: #2e2f42;
   letter-spacing: 0.02em;
   line-height: 1.2;
-  font-size: 20px;
-}
-.advantages-list {
-  background-color: #ffffff;
 }
 .advantages-list-item {
   line-height: 1.5;
